@@ -26,13 +26,14 @@ and the [Chudnovsky Algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorith
 
 #### FFT-Based Multiplication (Schönhage–Strassen algorithm)
 
+<img src="assets/newton_iter.png" align="right" style="margin: 16px;" />
+
 #### Newton's Method
 Newton's method, also known as the Newton–Raphson method, named after Isaac
 Newton and Joseph Raphson, is a root-finding algorithm which produces
 successively better approximations to the roots (or zeroes) of a real-valued
 function.
 
-<img src="assets/newton_iter.png" align="right" style="margin: 16px;" />
 
 ```math
 r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
