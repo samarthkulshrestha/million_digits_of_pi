@@ -28,17 +28,18 @@ and the [Chudnovsky Algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorith
 
 
 #### Newton's Method
-<img src="assets/newton_iter_w.png" align="center" style="margin: 16px; width: 30%;" />
-
 Newton's method, also known as the Newton–Raphson method, named after Isaac
 Newton and Joseph Raphson, is a root-finding algorithm which produces
 successively better approximations to the roots (or zeroes) of a real-valued
 function.
 
-
 ```math
 r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
+
+<div align="center">
+<img src="assets/newton_iter.png" align="center" style="margin: 16px; width: 30%;" />
+</div>
 
 #### Binary Splitting
 
