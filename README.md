@@ -33,6 +33,10 @@ The run-time bit complexity to multiply two n-digit numbers using the algorithm
 is $O(n\cdot \log n\cdot \log \log n)$ in big O notation.
 
 #### Chudnovsky Algorithm
+The algorithm is based on the negated [Heegner number](https://en.wikipedia.org/wiki/Heegner_number)
+$`d=-163`$, the [j-function](https://en.wikipedia.org/wiki/J-invariant)
+$`j\left(\cfrac{1+i\sqrt{163}}{2}\right) = -640320^3`$ and on the following
+rapidly convergent generalised hypergeometric series:
 ```math
 \displaystyle{\cfrac{1}{\pi}=12\sum_{q=0}^{\infty}\cfrac{(-1)^{q}(6q)!(545140134q + 13591409)}{(3q)!(q!)^{3}(640320)^{3q+\cfrac{3}{2}}}}
 ```
