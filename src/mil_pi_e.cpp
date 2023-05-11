@@ -90,7 +90,6 @@ namespace Calculate_Pi {
 
     void dump_to_file(const char * path,
         const std::string & str) {
-
         //  Dump a string to a file.
         FILE * file = fopen(path, "wb");
         if (file == NULL)
@@ -137,7 +136,6 @@ namespace Calculate_Pi {
     }
 
     void fft_forward(complex < double > * T, int k) {
-
         //  FFT
         if (k == 1) {
             complex < double > a = T[0];
@@ -395,7 +393,6 @@ namespace Calculate_Pi {
     //  Constructors
     BigFloat::BigFloat(): sign(true), exp(0), L(0) {}
     BigFloat::BigFloat(uint32_t x, bool sign_): sign(true), exp(0), L(1) {
-
         //  Construct a BigFloat with a value of x and the specified sign.
         if (x == 0) {
             L = 0;
@@ -409,7 +406,6 @@ namespace Calculate_Pi {
 
     //  String Conversion
     int64_t BigFloat::to_string_trimmed(size_t digits, std::string & str) const {
-
         //  Converts this object to a string with "digits" significant figures.
 
         //  After calling this function, the following expression is equal to the
@@ -1093,7 +1089,6 @@ namespace Calculate_Pi {
 
 
 int main() {
-
     size_t digits = 1000000;
 
     /* Calculate_Pi::e (digits); */
