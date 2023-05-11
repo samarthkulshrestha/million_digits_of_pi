@@ -34,7 +34,7 @@ is $O(n\cdot \log n\cdot \log \log n)$ in big O notation.
 
 #### Chudnovsky Algorithm
 ```math
-\displaystyle{\frac{1}{\pi}=12\sum_{q=0}^{\infty}\frac{(-1)^{q}(6q)!(545140134q + 13591409)}{(3q)!(q!)^{3}(640320)^{3q+\frac{3}{2}}}}
+\displaystyle{\cfrac{1}{\pi}=12\sum_{q=0}^{\infty}\cfrac{(-1)^{q}(6q)!(545140134q + 13591409)}{(3q)!(q!)^{3}(640320)^{3q+\cfrac{3}{2}}}}
 ```
 
 #### Newton's Method
@@ -44,7 +44,7 @@ successively better approximations to the roots (or zeroes) of a real-valued
 function.
 
 ```math
-r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
+r_1 = r_0 - \left(\cfrac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
 
 #### Binary Splitting
@@ -54,12 +54,12 @@ be used to evaluate hypergeometric series at rational points.
 
 Given a series
 ```math
-\displaystyle{S(a,b) = \sum_{n=a}^{b} \frac{p_n}{q_n}}
+\displaystyle{S(a,b) = \sum_{n=a}^{b} \cfrac{p_n}{q_n}}
 ```
 where $`p_n`$ and $`q_n`$ are integers, the goal of binary splitting is to compute
 integers $P(a,b)$ and $Q(a,b)$ such that
 ```math
-\displaystyle{S(a,b) = \frac{P(a,b)}{Q(a,b)}}.
+\displaystyle{S(a,b) = \cfrac{P(a,b)}{Q(a,b)}}.
 ```
 
 #### Log Factorial Approximation
@@ -67,5 +67,5 @@ Returns a very good approximation of $log(x!)$. This approximation gets better
 as $x$ gets larger.
 
 ```math
-log(x!) \approx \left(\left(x + \frac{1}{2}\right) \times \left(\log x - 1\right) + \cfrac{\left(\log 2\pi + 1\right)}{2}\right)
+log(x!) \approx \left(\left(x + \cfrac{1}{2}\right) \times \left(\log x - 1\right) + \ccfrac{\left(\log 2\pi + 1\right)}{2}\right)
 ```
