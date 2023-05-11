@@ -49,11 +49,19 @@ r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 </div>
 
 #### Binary Splitting
+In mathematics, binary splitting is a technique for speeding up numerical
+evaluation of many types of series with rational terms. In particular, it can
+be used to evaluate hypergeometric series at rational points.
+
+Given a series
+```math
+S(a,b) = 
+```
 
 #### Log Factorial Approximation
 Returns a very good approximation of $log(x!)$. This approximation gets better
 as $x$ gets larger.
 
 ```math
-log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}
+\displaystyle{log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}}
 ```
