@@ -68,5 +68,5 @@ Returns a very good approximation of $log(x!)$. This approximation gets better
 as $x$ gets larger.
 
 ```math
-log(x!) \approx \left(\frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}\right)
+log(x!) \approx \left(\frac{\left(x + \frac{1}{2}\right) \times \left(\log x - 1\right) + \left(\log 2\pi + 1\right)}{2}\right)
 ```
