@@ -32,6 +32,10 @@ It works by recursively applying number-theoretic transforms
 The run-time bit complexity to multiply two n-digit numbers using the algorithm
 is $O(n\cdot \log n\cdot \log \log n)$ in big O notation.
 
+#### Chudnovsky Algorithm
+```math
+\displaystyle{\frac{1}{\pi}=12\sum_{q=0}^{\infty}\frac{(-1)^{q}(6q)!(545140134q + 13591409)}{(3q)!(q!)^{3}(640320)^{3q+\frac{3}{2}}}}
+```
 
 #### Newton's Method
 Newton's method, also known as the Newton–Raphson method, named after Isaac
