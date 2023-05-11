@@ -17,7 +17,7 @@ samarth kulshrestha
 
 ## Introduction
 
-**million_digits_of_pi** is a minimal C++ program that can compute `pi` and `e`
+**million_digits_of_pi** is a minimal C++ program that can compute $\pi$ and $e$
 (euler's constant) to millions of digits in a quasi-linear runtime using Fast
 Fourier Tranforms ([FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform))
 and the [Chudnovsky Algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm).
@@ -25,6 +25,7 @@ and the [Chudnovsky Algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorith
 ## Algorithms implemented:
 
 #### FFT-Based Multiplication (Schönhage–Strassen algorithm)
+
 #### Newton's Method
 Newton's method, also known as the Newton–Raphson method, named after Isaac
 Newton and Joseph Raphson, is a root-finding algorithm which produces
@@ -35,4 +36,14 @@ function.
 r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
 
+![newton iteration graph](assets/newton_iter.png)
+
 #### Binary Splitting
+
+#### Log Factorial Approximation
+Returns a very good approximation of $log(x!)$. This approximation gets better
+as $x$ gets larger.
+
+```math
+log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}
+```
