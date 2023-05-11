@@ -60,14 +60,13 @@ Given a series
 where $p_n$ & $q_n$ are integers, the goal of binary splitting is to compute
 integers $P(a,b)$ and $Q(a,b)$ such that
 ```math
-\displaystyle{S(a,b) = \frac{P(a,b)}{Q(a,b)}}
+\displaystyle{S(a,b) = \frac{P(a,b)}{Q(a,b)}}.
 ```
-.
 
 #### Log Factorial Approximation
 Returns a very good approximation of $log(x!)$. This approximation gets better
 as $x$ gets larger.
 
 ```math
-log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}
+log(x!) \approx \left(\frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}\right)
 ```
