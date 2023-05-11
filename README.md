@@ -55,7 +55,7 @@ be used to evaluate hypergeometric series at rational points.
 
 Given a series
 ```math
-S(a,b) = 
+\displaystyle{S(a,b) = \sum_{n=a}^{b} \frac{p_n}{q_n}}
 ```
 
 #### Log Factorial Approximation
@@ -63,5 +63,5 @@ Returns a very good approximation of $log(x!)$. This approximation gets better
 as $x$ gets larger.
 
 ```math
-\displaystyle{log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}}
+log(x!) \approx \frac{\left(x + \frac{1}{2}\right) \times \left(log(x) - 1\right) + \left(log(2\pi) + 1\right)}{2}
 ```
