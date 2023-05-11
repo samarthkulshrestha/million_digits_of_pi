@@ -38,7 +38,7 @@ r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
 
 <div align="center">
-<img src="assets/newton_iter.png" align="center" style="margin: 16px; width: 30%;" />
+<img src="assets/newton_iter.png" align="center" style="margin: 16px; width: 50%;" />
 </div>
 
 #### Binary Splitting
