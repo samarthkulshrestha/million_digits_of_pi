@@ -30,7 +30,8 @@ algorithm is an asymptotically fast multiplication algorithm for large integers.
 It works by recursively applying number-theoretic transforms
 (a form of fast Fourier transform) over the integers modulo $2^n+1$.
 The run-time bit complexity to multiply two n-digit numbers using the algorithm
-is $O(n\cdot{log\:n}\cdot{log\:log\:n})$ in big O notation.
+is $O(n\cdot \log n\cdot \log \log n)$ in big O notation.
+
 
 #### Newton's Method
 Newton's method, also known as the Newton–Raphson method, named after Isaac
