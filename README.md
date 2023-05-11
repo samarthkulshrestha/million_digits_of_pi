@@ -42,11 +42,6 @@ function.
 ```math
 r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
-<br/>
-<br/>
-<div align="center">
-<img src="assets/newton_iter.png" align="center" style="margin: 16px; width: 50%;" />
-</div>
 
 #### Binary Splitting
 In mathematics, binary splitting is a technique for speeding up numerical
