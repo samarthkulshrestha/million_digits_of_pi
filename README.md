@@ -57,7 +57,7 @@ Given a series
 ```math
 \displaystyle{S(a,b) = \sum_{n=a}^{b} \frac{p_n}{q_n}}
 ```
-where $p_n$ & $q_n$ are integers, the goal of binary splitting is to compute
+where $`p_n`$ and $`q_n`$ are integers, the goal of binary splitting is to compute
 integers $P(a,b)$ and $Q(a,b)$ such that
 ```math
 \displaystyle{S(a,b) = \frac{P(a,b)}{Q(a,b)}}.
