@@ -32,11 +32,11 @@ Newton and Joseph Raphson, is a root-finding algorithm which produces
 successively better approximations to the roots (or zeroes) of a real-valued
 function.
 
+<img src="assets/newton_iter.png" align="right" style="margin: 16px;" />
+
 ```math
 r_1 = r_0 - \left(\frac{r_0\:^2\cdot{x-1}}{2}\right)\times{r_0}
 ```
-
-![newton iteration graph](assets/newton_iter.png)
 
 #### Binary Splitting
 
