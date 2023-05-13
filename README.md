@@ -8,7 +8,7 @@ samarth kulshrestha
 ![top language](https://img.shields.io/github/languages/top/samarthkulshrestha/million_digits_of_pi?color=%234877f7&style=for-the-badge)
 <br>
 ![license](https://img.shields.io/github/license/samarthkulshrestha/million_digits_of_pi?color=%23f2e85a&style=for-the-badge)
-![pre-release date](https://img.shields.io/github/release-date-pre/samarthkulshrestha/million_digits_of_pi?color=%23f76ad4&style=for-the-badge)
+![release date](https://img.shields.io/github/release-date-pre/samarthkulshrestha/million_digits_of_pi?color=%23f76ad4&style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/samarthkulshrestha/million_digits_of_pi?color=%2346d4a0&style=for-the-badge)
 <br/><br/><br/>
 ![million_digits_of_pi logo](assets/million_digits_of_pi.png)
