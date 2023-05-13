@@ -86,9 +86,6 @@ log(x!) \approx \left(\left(x + \cfrac{1}{2}\right) \times \left(\log x - 1\righ
 
 ## Contribute
 
-![pull requests welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-![c++ style guide](https://img.shields.io/badge/c++-style%20guide-blue?style=flat-square)
-
 + I <3 pull requests and bug reports!
 + Don't hesitate to [tell me my code-fu sucks](https://github.com/samarthkulshrestha/million_digits_of_pi/issues/new), but please tell me why.
 + Feel free to fork the project and try out your own optimisations.
