@@ -18,9 +18,19 @@ samarth kulshrestha
 ## Introduction
 
 **million_digits_of_pi** is a minimal C++ program that can compute $\pi$ and $e$
-(euler's constant) to millions of digits in a quasi-linear runtime using Fast
+(Euler's constant) to millions of digits in a quasi-linear runtime using Fast
 Fourier Tranforms ([FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform))
 and the [Chudnovsky Algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm).
+
+The focus of this project is conciseness and readability, not optimisation. So
+this code is very slow. Nevertheless, it can compute $\pi$ to hundreds of
+millions of digits if you're willing to wait.
+
+This program will compute $`N`$ digits of $`e`$ in $`O(N\times\log(N)^{2})`$
+time and N digits of $`\pi`$ in $`O(N\times\log(N)^3)`$.
+
+These complexities are exact since the FFT uses a fixed $#$ of digits per point.
+However, the program will fail above 800 million digits due to round off error.
 
 ## Algorithms implemented:
 
@@ -73,3 +83,18 @@ as $x$ gets larger.
 ```math
 log(x!) \approx \left(\left(x + \cfrac{1}{2}\right) \times \left(\log x - 1\right) + \cfrac{\left(\log 2\pi + 1\right)}{2}\right)
 ```
+
+## Contribute
+
+ [![pull requests welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+ [![c++ style guide](https://img.shields.io/badge/c++-style%20guide-blue?style=flat-square)](https://google.github.io/styleguide/cppguide.html)
+
++ I <3 pull requests and bug reports!
++ Don't hesitate to [tell me my code-fu sucks](https://github.com/samarthkulshrestha/eclisp/issues/new), but please tell me why.
++ Feel free to fork the project and try out your own optimisations.
+
+## License
+
+Million Digits of Pi is licensed under the MIT License.
+
+Copyright (c) 2023 Samarth Kulshrestha.
