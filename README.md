@@ -29,7 +29,7 @@ millions of digits if you're willing to wait.
 This program will compute $`N`$ digits of $`e`$ in $`O(N\times\log(N)^{2})`$
 time and N digits of $`\pi`$ in $`O(N\times\log(N)^3)`$.
 
-These complexities are exact since the FFT uses a fixed $#$ of digits per point.
+These complexities are exact since the FFT uses a fixed number of digits per point.
 However, the program will fail above 800 million digits due to round off error.
 
 ## Algorithms implemented:
